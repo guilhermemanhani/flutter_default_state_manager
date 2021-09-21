@@ -21,7 +21,7 @@ class _ImcSetstattePageState extends State<ImcSetstattePage> {
     setState(() {
       imc = 0;
     });
-    await Future.delayed(Duration(seconds: 1));
+    await Future.delayed(const Duration(seconds: 1));
     setState(() {
       imc = peso / pow(2, altura);
     });
